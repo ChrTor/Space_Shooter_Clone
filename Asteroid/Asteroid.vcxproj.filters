@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\StateMachine">
+      <UniqueIdentifier>{6a4c462c-8306-41d6-9cd2-70211a512d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateMachine">
+      <UniqueIdentifier>{c6ac06f0-d13c-4397-99e6-6473bdacfe89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World">
+      <UniqueIdentifier>{1c384643-2e20-4055-b40a-20a82ad9edd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Entities">
+      <UniqueIdentifier>{d5424847-a9eb-46c8-847b-78f7674c6ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World">
+      <UniqueIdentifier>{a6b2bca1-8c0f-4a06-be90-8eaae0f9b758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Entities">
+      <UniqueIdentifier>{c7ca9655-d2aa-4374-882d-96e2e050c161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StateMachine\States">
+      <UniqueIdentifier>{a7c3782e-0ebd-45f8-965b-7902b4bd46e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateMachine\States">
+      <UniqueIdentifier>{84dcb2e6-be85-4194-bd4b-082d8b1f7fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{fae2a867-efd7-4cef-a759-22442c149325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{094dec0c-70ad-4326-a031-8ef217ed0875}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Source Files\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Source Files\World\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Playing.cpp">
+      <Filter>Source Files\StateMachine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\StateMachine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\StateMachine\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\World\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\World\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\World\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header Files\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\World\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>Header Files\World\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Playing.h">
+      <Filter>Header Files\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\StateMachine\States</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\World\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\World\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

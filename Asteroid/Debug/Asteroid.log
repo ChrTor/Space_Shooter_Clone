@@ -1,0 +1,26 @@
+﻿  Asteroid.cpp
+  Bullet.cpp
+  CollisionManager.cpp
+  Entity.cpp
+  Menu.cpp
+  Player.cpp
+  Playing.cpp
+  StateMachine.cpp
+  World.cpp
+C:\Users\Christoffer\Desktop\Asteroid\Asteroid\World.cpp(132,73): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Christoffer\Desktop\Asteroid\Asteroid\World.cpp(132,55): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Christoffer\Desktop\Asteroid\Asteroid\World.cpp(189,19): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Christoffer\Desktop\Asteroid\Asteroid\World.cpp(198,19): warning C4834: discarding return value of function with 'nodiscard' attribute
+  main.cpp
+  Generating Code...
+C:\Users\Christoffer\Desktop\Asteroid\Asteroid\World.cpp(201): warning C4172: returning address of local variable or temporary: numb
+C:\Users\Christoffer\Desktop\Asteroid\Asteroid\World.cpp(192): warning C4172: returning address of local variable or temporary: numb
+  Asteroid.vcxproj -> C:\Users\Christoffer\Desktop\Asteroid\Debug\Asteroid.exe
